@@ -1,0 +1,184 @@
+@media only screen and (max-width: 700px) {
+    .filters{
+        height: fit-content;
+        padding: 5%;
+        margin: 5%;
+        text-align: center;
+        background-color: white;
+    }
+    .content{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .program {
+        background-color: white;
+        text-align: center;
+        padding: 10%;
+        margin: 10%;
+    }
+    .mainContainer{
+        background-color: #f2f2f2;
+    }
+   
+}
+
+@media only screen and (min-width: 700px) {
+    .filters{
+        width: 25%;
+        height: fit-content;
+        padding: 1.5%;
+        margin: 1.5%;
+        text-align: center;
+        background-color: white;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+    .program {
+        float: left;
+        background-color: white;
+        padding: 1%;
+        margin: 1%;
+        flex: 0 0 41%;
+        max-width: 41%;
+    }
+    .mainContainer{
+        display: flex;
+        background-color: #f2f2f2;
+        
+    }
+    .page{
+        display: flex;
+        min-width: -webkit-fill-available;
+
+    }
+    
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .filters{
+        width: 12%;
+        height: fit-content;
+        padding: 1.5%;
+        margin: 1.5%;
+        text-align: center;
+        background-color: white;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    .program {
+        float: left;
+        background-color: white;
+        padding: 1%;
+        margin: 1%;
+        flex: 0 0 21%;
+        max-width: 21%;
+    }
+    .mainContainer{
+        display: flex;
+        background-color: #f2f2f2;
+
+    }
+
+    .page{
+        display: flex;
+        min-width: -webkit-fill-available;
+
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .filters{
+        width: 12%;
+        height: fit-content;
+        padding: 1.5%;
+        margin: 1.5%;
+        text-align: center;
+        background-color: white;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    .program {
+        float: left;
+        background-color: white;
+        padding: 1%;
+        margin: 1%;
+        flex: 0 0 21%;
+        max-width: 21%;
+    }
+    .mainContainer{
+        display: flex;
+        justify-content: center;
+        background-color: #f2f2f2;
+
+    }
+    .page{
+        max-width: 1440px;
+        min-width: 1440px;
+        display: flex;
+    }
+    .body h1{
+        text-align: center;
+    }
+    
+}
+.yearContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.headings{
+    font-size:1.2rem;
+    margin-top:10%;
+}
+
+
+.year{
+    background-color: #c4e09b;
+    max-width: 38%;
+    float: left;
+    margin: 2%;
+    padding: 4%;
+    flex: 0 0 38%;
+    border-radius: 5px;
+}
+
+.activeYear{
+    background-color:#7eb80d;
+    max-width: 38%;
+    float: left;
+    margin: 2%;
+    padding: 4%;
+    flex: 0 0 38%;
+    border-radius: 5px;
+}
+
+.img-mission {
+    background: #f2f2f2;
+    text-align: center;
+    max-width: -webkit-fill-available;
+}
+
+.body{
+    background-color:#f2f2f2 ;
+    padding: 1%;
+}
+.body h1{
+    padding-left: 1%;
+}
+
+#mission_name{
+    color:#00008b;
+    font-weight: 700;
+}
