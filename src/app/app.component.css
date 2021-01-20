@@ -178,6 +178,10 @@
     padding-left: 1%;
 }
 
+.signature{
+    text-align: center;
+}
+
 #mission_name{
     color:#00008b;
     font-weight: 700;
